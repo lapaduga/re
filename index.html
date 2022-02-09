@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Lorem ipsum">
+  <meta name="og:title" property="og:title" content="ГЛАВНАЯ">
+  <meta property="og:type" content="website">
+  <link type="image/png" href="favicons/favicon-32x32.png" rel="icon" sizes="32x32">
+  <link type="image/png" href="favicons/favicon-64x64.png" rel="icon" sizes="64x64">
+  <link type="image/png" href="favicons/favicon-16x16.png" rel="icon" sizes="16x16">
+  <link href="css/bundle.css?v=936" rel="stylesheet">
+  <title>
+    ГЛАВНАЯ
+  </title>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeXJyitE-d2WYKT_6mMAG9iYVY0snJIlk"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <main class="main">
+      <section class="section mainscreen" data-woo-over="false">
+        <div class="mainscreen__bg-wrap">
+          <div class="swiper-container mainscreen__swiper js-fade-slider">
+            <div class="swiper-wrapper mainscreen__swiper-warp">
+              <div class="swiper-slide mainscreen__swiper-slide">
+                <div class="slide-inner mainscreen__bg" style="background-image: url(img/main01.jpg);"></div>
+              </div>
+              <div class="swiper-slide mainscreen__swiper-slide">
+                <div class="slide-inner mainscreen__bg" style="background-image: url(img/main02.jpg);"></div>
+              </div>
+              <div class="swiper-slide mainscreen__swiper-slide">
+                <div class="slide-inner mainscreen__bg" style="background-image: url(img/main03.jpg);"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mainscreen__container container">
+          <div class="mainscreen__body">
+            <div class="mainscreen__header m-header">
+              <a href="index.html" class="m-header__logo">
+                <img src="img/logo-white.svg" alt="">
+              </a>
+              <div class="m-header__descriptor">
+                15 лет опыта <br> в девелопменте
+              </div>
+              <div class="m-header__contacts">
+                <a href="tel:+73512475555" class="m-header__contact">+7 351 247 55 55</a>
+                <a href="https://www.instagram.com/" target="_blank" class="m-header__contact m-header__contact--icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 3.89286C8.71429 3.89286 9.39286 4.10714 10.0357 4.46429C10.6786 4.82143 11.1786 5.32143 11.5357 5.96429C11.8929 6.60714 12.1071 7.28571 12.1071 8C12.1071 8.75 11.8929 9.42857 11.5357 10.0714C11.1786 10.7143 10.6786 11.2143 10.0357 11.5714C9.39286 11.9286 8.71429 12.1071 8 12.1071C7.25 12.1071 6.57143 11.9286 5.92857 11.5714C5.28571 11.2143 4.78571 10.7143 4.42857 10.0714C4.07143 9.42857 3.89286 8.75 3.89286 8C3.89286 7.28571 4.07143 6.60714 4.42857 5.96429C4.78571 5.32143 5.28571 4.82143 5.92857 4.46429C6.57143 4.10714 7.25 3.89286 8 3.89286ZM8 10.6786C8.71429 10.6786 9.35714 10.4286 9.89286 9.89286C10.3929 9.39286 10.6786 8.75 10.6786 8C10.6786 7.28571 10.3929 6.64286 9.89286 6.10714C9.35714 5.60714 8.71429 5.32143 8 5.32143C7.25 5.32143 6.60714 5.60714 6.10714 6.10714C5.57143 6.64286 5.32143 7.28571 5.32143 8C5.32143 8.75 5.57143 9.39286 6.10714 9.89286C6.60714 10.4286 7.25 10.6786 8 10.6786ZM13.25 3.71429C13.25 3.46429 13.1429 3.25 12.9643 3.03571C12.75 2.85714 12.5357 2.75 12.2857 2.75C12 2.75 11.7857 2.85714 11.6071 3.03571C11.3929 3.25 11.3214 3.46429 11.3214 3.71429C11.3214 4 11.3929 4.21429 11.6071 4.39286C11.7857 4.60714 12 4.67857 12.2857 4.67857C12.5357 4.67857 12.75 4.60714 12.9286 4.39286C13.1071 4.21429 13.2143 4 13.25 3.71429ZM15.9643 4.67857C15.9643 5.35714 16 6.46429 16 8C16 9.57143 15.9643 10.6786 15.9286 11.3571C15.8929 12.0357 15.7857 12.6071 15.6429 13.1071C15.4286 13.7143 15.0714 14.25 14.6429 14.6786C14.2143 15.1071 13.6786 15.4286 13.1071 15.6429C12.6071 15.8214 12 15.9286 11.3214 15.9643C10.6429 16 9.53572 16 8 16C6.42857 16 5.32143 16 4.64286 15.9643C3.96429 15.9286 3.39286 15.8214 2.89286 15.6071C2.28571 15.4286 1.75 15.1071 1.32143 14.6786C0.892857 14.25 0.571429 13.7143 0.357143 13.1071C0.178571 12.6071 0.0714286 12.0357 0.0357143 11.3571C0 10.6786 0 9.57143 0 8C0 6.46429 0 5.35714 0.0357143 4.67857C0.0714286 4 0.178571 3.39286 0.357143 2.89286C0.571429 2.32143 0.892857 1.78571 1.32143 1.35714C1.75 0.928571 2.28571 0.571429 2.89286 0.357143C3.39286 0.214286 3.96429 0.107143 4.64286 0.0714286C5.32143 0.0357143 6.42857 0 8 0C9.53572 0 10.6429 0.0357143 11.3214 0.0714286C12 0.107143 12.6071 0.214286 13.1071 0.357143C13.6786 0.571429 14.2143 0.928571 14.6429 1.35714C15.0714 1.78571 15.4286 2.32143 15.6429 2.89286C15.7857 3.39286 15.8929 4 15.9643 4.67857ZM14.25 12.7143C14.3929 12.3214 14.4643 11.6786 14.5357 10.7857C14.5357 10.2857 14.5714 9.53572 14.5714 8.57143V7.42857C14.5714 6.46429 14.5357 5.71429 14.5357 5.21429C14.4643 4.32143 14.3929 3.67857 14.25 3.28571C13.9643 2.57143 13.4286 2.03571 12.7143 1.75C12.3214 1.60714 11.6786 1.53571 10.7857 1.46429C10.25 1.46429 9.5 1.42857 8.57143 1.42857H7.42857C6.46429 1.42857 5.71429 1.46429 5.21429 1.46429C4.32143 1.53571 3.67857 1.60714 3.28571 1.75C2.53571 2.03571 2.03571 2.57143 1.75 3.28571C1.60714 3.67857 1.5 4.32143 1.46429 5.21429C1.42857 5.75 1.42857 6.5 1.42857 7.42857V8.57143C1.42857 9.53572 1.42857 10.2857 1.46429 10.7857C1.5 11.6786 1.60714 12.3214 1.75 12.7143C2.03571 13.4643 2.57143 13.9643 3.28571 14.25C3.67857 14.3929 4.32143 14.5 5.21429 14.5357C5.71429 14.5714 6.46429 14.5714 7.42857 14.5714H8.57143C9.53572 14.5714 10.2857 14.5714 10.7857 14.5357C11.6786 14.5 12.3214 14.3929 12.7143 14.25C13.4286 13.9643 13.9643 13.4286 14.25 12.7143Z" />
+                  </svg>
+                </a>
+                <a href="https://vk.com/" target="_blank" class="m-header__contact m-header__contact--icon">
+                  <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.4986 0.881562C21.6497 0.37375 21.4986 0 20.7716 0H18.3661C17.7535 0 17.4717 0.320937 17.3206 0.678437C17.3206 0.678437 16.0954 3.64812 14.3637 5.57375C13.8042 6.13031 13.5469 6.30906 13.2406 6.30906C13.0895 6.30906 12.8567 6.13031 12.8567 5.6225V0.881562C12.8567 0.272187 12.6852 0 12.1787 0H8.39687C8.01297 0 7.78426 0.284375 7.78426 0.548437C7.78426 1.12531 8.65009 1.25937 8.73993 2.88437V6.41062C8.73993 7.1825 8.60108 7.32469 8.29477 7.32469C7.47795 7.32469 5.49309 4.34281 4.31687 0.930313C4.08 0.268125 3.84721 0 3.23051 0H0.824984C0.138859 0 0 0.320937 0 0.678437C0 1.31219 0.816816 4.46063 3.80228 8.62063C5.79123 11.4603 8.59291 13 11.1414 13C12.6729 13 12.8608 12.6587 12.8608 12.0697C12.8608 9.35594 12.7219 9.1 13.4897 9.1C13.845 9.1 14.4577 9.27875 15.8871 10.6478C17.5207 12.2728 17.7903 13 18.7051 13H21.1106C21.7967 13 22.1439 12.6587 21.9438 11.9844C21.4864 10.5666 18.3947 7.64969 18.2558 7.45469C17.9005 6.99969 18.0026 6.79656 18.2558 6.39031C18.2599 6.38625 21.1964 2.275 21.4986 0.881562Z" />
+                  </svg>
+                </a>
+              </div>
+              <div class="m-header__burger"></div>
+            </div>
+            <h1 class="mainscreen__title title">
+              <span>
+                Инвестиции и развитие проектов в формате fee-девелопмента в сфере жилой недвижимости
+              </span>
+            </h1>
+          </div>
+        </div>
+        <div class="mainscreen__bottom m-bottom">
+          <div class="mainscreen__container container">
+            <ul class="m-bottom__list">
+              <li class="m-bottom__item">
+                <span>Управление проектами&nbsp;в строительстве</span>
+              </li>
+              <li class="m-bottom__item">
+                <span>Инвестиции&nbsp;в недвижимость</span>
+              </li>
+              <li class="m-bottom__item">
+                <span>Профессиональный отдел продаж</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mainscreen__footer m-footer" style="display: none;">
+          <div class="m-footer__container container">
+            <div class="m-footer__body js-woosticky" data-offset-top="0">
+              <nav class="m-footer__menu">
+                <ul class="m-footer__list">
+                  <li class="m-footer__item">
+                    <a href="#" class="m-footer__link">Землевладельцам</a>
+                  </li>
+                  <li class="m-footer__item">
+                    <a href="#" class="m-footer__link">Инвесторам</a>
+                  </li>
+                  <li class="m-footer__item">
+                    <a href="#" class="m-footer__link">Проекты</a>
+                  </li>
+                  <li class="m-footer__item">
+                    <a href="#" class="m-footer__link">О компании</a>
+                  </li>
+                  <li class="m-footer__item">
+                    <a href="#" class="m-footer__link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="m-footer__project">
+                Текущий проект: <a href="#"> ЖК «Семейный»</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <header class="header js-woosticky js-scroll-header" data-offset-top="0" data-scroll-class="991">
+        <div class="header__container container">
+          <div class="header__body">
+            <a href="index.html" class="header__logo"></a>
+            <div class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="/land.html" class="menu__link">Землевладельцам</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/invest.html" class="menu__link">Инвесторам</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/projects.html" class="menu__link">Проекты</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/company.html" class="menu__link">О компании</a>
+                </li>
+                <li class="menu__item">
+                  <a href="/contacts.html" class="menu__link">Контакты</a>
+                </li>
+              </ul>
+              <div class="header__contacts">
+                <a href="tel:+73512475555" class="header__contact">+7 351 247 55 55</a>
+                <a href="https://www.instagram.com/gkregion74/" target="_blank" class="header__contact header__contact--icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 3.89286C8.71429 3.89286 9.39286 4.10714 10.0357 4.46429C10.6786 4.82143 11.1786 5.32143 11.5357 5.96429C11.8929 6.60714 12.1071 7.28571 12.1071 8C12.1071 8.75 11.8929 9.42857 11.5357 10.0714C11.1786 10.7143 10.6786 11.2143 10.0357 11.5714C9.39286 11.9286 8.71429 12.1071 8 12.1071C7.25 12.1071 6.57143 11.9286 5.92857 11.5714C5.28571 11.2143 4.78571 10.7143 4.42857 10.0714C4.07143 9.42857 3.89286 8.75 3.89286 8C3.89286 7.28571 4.07143 6.60714 4.42857 5.96429C4.78571 5.32143 5.28571 4.82143 5.92857 4.46429C6.57143 4.10714 7.25 3.89286 8 3.89286ZM8 10.6786C8.71429 10.6786 9.35714 10.4286 9.89286 9.89286C10.3929 9.39286 10.6786 8.75 10.6786 8C10.6786 7.28571 10.3929 6.64286 9.89286 6.10714C9.35714 5.60714 8.71429 5.32143 8 5.32143C7.25 5.32143 6.60714 5.60714 6.10714 6.10714C5.57143 6.64286 5.32143 7.28571 5.32143 8C5.32143 8.75 5.57143 9.39286 6.10714 9.89286C6.60714 10.4286 7.25 10.6786 8 10.6786ZM13.25 3.71429C13.25 3.46429 13.1429 3.25 12.9643 3.03571C12.75 2.85714 12.5357 2.75 12.2857 2.75C12 2.75 11.7857 2.85714 11.6071 3.03571C11.3929 3.25 11.3214 3.46429 11.3214 3.71429C11.3214 4 11.3929 4.21429 11.6071 4.39286C11.7857 4.60714 12 4.67857 12.2857 4.67857C12.5357 4.67857 12.75 4.60714 12.9286 4.39286C13.1071 4.21429 13.2143 4 13.25 3.71429ZM15.9643 4.67857C15.9643 5.35714 16 6.46429 16 8C16 9.57143 15.9643 10.6786 15.9286 11.3571C15.8929 12.0357 15.7857 12.6071 15.6429 13.1071C15.4286 13.7143 15.0714 14.25 14.6429 14.6786C14.2143 15.1071 13.6786 15.4286 13.1071 15.6429C12.6071 15.8214 12 15.9286 11.3214 15.9643C10.6429 16 9.53572 16 8 16C6.42857 16 5.32143 16 4.64286 15.9643C3.96429 15.9286 3.39286 15.8214 2.89286 15.6071C2.28571 15.4286 1.75 15.1071 1.32143 14.6786C0.892857 14.25 0.571429 13.7143 0.357143 13.1071C0.178571 12.6071 0.0714286 12.0357 0.0357143 11.3571C0 10.6786 0 9.57143 0 8C0 6.46429 0 5.35714 0.0357143 4.67857C0.0714286 4 0.178571 3.39286 0.357143 2.89286C0.571429 2.32143 0.892857 1.78571 1.32143 1.35714C1.75 0.928571 2.28571 0.571429 2.89286 0.357143C3.39286 0.214286 3.96429 0.107143 4.64286 0.0714286C5.32143 0.0357143 6.42857 0 8 0C9.53572 0 10.6429 0.0357143 11.3214 0.0714286C12 0.107143 12.6071 0.214286 13.1071 0.357143C13.6786 0.571429 14.2143 0.928571 14.6429 1.35714C15.0714 1.78571 15.4286 2.32143 15.6429 2.89286C15.7857 3.39286 15.8929 4 15.9643 4.67857ZM14.25 12.7143C14.3929 12.3214 14.4643 11.6786 14.5357 10.7857C14.5357 10.2857 14.5714 9.53572 14.5714 8.57143V7.42857C14.5714 6.46429 14.5357 5.71429 14.5357 5.21429C14.4643 4.32143 14.3929 3.67857 14.25 3.28571C13.9643 2.57143 13.4286 2.03571 12.7143 1.75C12.3214 1.60714 11.6786 1.53571 10.7857 1.46429C10.25 1.46429 9.5 1.42857 8.57143 1.42857H7.42857C6.46429 1.42857 5.71429 1.46429 5.21429 1.46429C4.32143 1.53571 3.67857 1.60714 3.28571 1.75C2.53571 2.03571 2.03571 2.57143 1.75 3.28571C1.60714 3.67857 1.5 4.32143 1.46429 5.21429C1.42857 5.75 1.42857 6.5 1.42857 7.42857V8.57143C1.42857 9.53572 1.42857 10.2857 1.46429 10.7857C1.5 11.6786 1.60714 12.3214 1.75 12.7143C2.03571 13.4643 2.57143 13.9643 3.28571 14.25C3.67857 14.3929 4.32143 14.5 5.21429 14.5357C5.71429 14.5714 6.46429 14.5714 7.42857 14.5714H8.57143C9.53572 14.5714 10.2857 14.5714 10.7857 14.5357C11.6786 14.5 12.3214 14.3929 12.7143 14.25C13.4286 13.9643 13.9643 13.4286 14.25 12.7143Z" />
+                  </svg>
+                </a>
+                <a href="https://vk.com/gkregion" target="_blank" class="header__contact header__contact--icon">
+                  <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.4986 0.881562C21.6497 0.37375 21.4986 0 20.7716 0H18.3661C17.7535 0 17.4717 0.320937 17.3206 0.678437C17.3206 0.678437 16.0954 3.64812 14.3637 5.57375C13.8042 6.13031 13.5469 6.30906 13.2406 6.30906C13.0895 6.30906 12.8567 6.13031 12.8567 5.6225V0.881562C12.8567 0.272187 12.6852 0 12.1787 0H8.39687C8.01297 0 7.78426 0.284375 7.78426 0.548437C7.78426 1.12531 8.65009 1.25937 8.73993 2.88437V6.41062C8.73993 7.1825 8.60108 7.32469 8.29477 7.32469C7.47795 7.32469 5.49309 4.34281 4.31687 0.930313C4.08 0.268125 3.84721 0 3.23051 0H0.824984C0.138859 0 0 0.320937 0 0.678437C0 1.31219 0.816816 4.46063 3.80228 8.62063C5.79123 11.4603 8.59291 13 11.1414 13C12.6729 13 12.8608 12.6587 12.8608 12.0697C12.8608 9.35594 12.7219 9.1 13.4897 9.1C13.845 9.1 14.4577 9.27875 15.8871 10.6478C17.5207 12.2728 17.7903 13 18.7051 13H21.1106C21.7967 13 22.1439 12.6587 21.9438 11.9844C21.4864 10.5666 18.3947 7.64969 18.2558 7.45469C17.9005 6.99969 18.0026 6.79656 18.2558 6.39031C18.2599 6.38625 21.1964 2.275 21.4986 0.881562Z" />
+                  </svg>
+                </a>
+              </div>
+              <div class="header__current">
+                Текущий проект: <a href="#current"> ЖК «Семейный»</a>
+              </div>
+            </div>
+            <div class="header__burger"></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="section block" id="landlords">
+        <div class="block__container container">
+          <div class="block__body">
+            <div class="block__name block__name--landlords">Землевладельцам</div>
+            <div class="woo-grid__container">
+              <div class="woo-grid__row">
+                <div class="woo-grid__col-6 woo-grid__lg-col-10">
+                  <h2 class="block__title title">
+                    Реализуем «под ключ» проекты в сфере жилой недвижимости для инвесторов и собственников
+                    земельных
+                    участков
+                  </h2>
+                  <div class="block__columns">
+                    <div class="block__col text">
+                      Группа компаний Регион 74 — один из ведущих игроков на рынке недвижимости Челябинской
+                      области, деятельность которой направлена на развитие инвестиционных проектов,
+                      организацию
+                      финансирования и реализацию строительных проектов в сфере жилой недвижимости.
+                    </div>
+                    <div class="block__col text">
+                      Мы обеспечиваем достижение целей наших клиентов, становясь частью их организации на
+                      протяжении реализации проекта. Компетенции и опыт в настоящее время переносятся нашими
+                      специалистами на партнерские проекты, реализуемые в формате fee-девелопмента.
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 lg-hide"></div>
+                <div class="woo-grid__col-2 woo-grid__xll-col-3 woo-grid__lg-col-10 block__s-right">
+                  <div class="block__row">
+                    <div class="block__number">
+                      93 000 м<sup>2</sup>
+                    </div>
+                    <div class="block__text text">
+                      площадь реализованной недвижимости
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      18
+                    </div>
+                    <div class="block__text text">
+                      объектов введено в эксплуатацию
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      15
+                    </div>
+                    <div class="block__text text">
+                      проектов реализованных
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 xll-hide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block__bottom block__bottom--landlords">
+          <div class="block__outer">
+            <div class="block__container container">
+              <div class="block__inner">
+                <h3 class="block__subtitle subtitle">
+                  Управление проектами в строительстве
+                </h3>
+                <ul class="block__list">
+                  <li class="block__item">
+                    <div class="block__ihover">
+                      <a href="/land.html#finance" class="block__link">
+                        <span>
+                          Привлечение <br> финансирования
+                        </span>
+                      </a>
+                      <div class="block__ihover-list">
+                        <div class="block__hover text">
+                          Опыт привлечения финансирования в строительные проекты позволяет реализовывать
+                          взаимовыгодную стратегию финансирования для наших партнеров
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="block__item">
+                    <div class="block__ihover">
+                      <a href="/land.html#confirm" class="block__link">
+                        <span>
+                          Согласование, проектирование <br> и строительство
+                        </span>
+                      </a>
+                      <div class="block__ihover-list">
+                        <div class="block__hover text">
+                          Регион 74 осуществляет полный комплекс услуг реализации и сопровождения девелоперских проектов в
+                          интересах инвесторов и застройщиков
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="block__item">
+                    <div class="block__ihover">
+                      <a href="/land.html#market" class="block__link">
+                        <span>
+                          Маркетинг <br> и продажи
+                        </span>
+                      </a>
+                      <div class="block__ihover-list">
+                        <div class="block__hover text">
+                          Полный цикл рекламной поддержки и продвижения проекта
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section block" id="investors">
+        <div class="block__container container">
+          <div class="block__body">
+            <div class="block__name block__name--investors">Инвесторам</div>
+            <div class="woo-grid__container">
+              <div class="woo-grid__row">
+                <div class="woo-grid__col-6 woo-grid__lg-col-10">
+                  <h2 class="block__title title">
+                    Недвижимость — один из самых надежных видов инвестиций
+                  </h2>
+                  <div class="block__columns">
+                    <div class="block__col text">
+                      Обладая более высокой доходностью, чем традиционные банковские продукты, он не несет в себе
+                      рисков сложных финансовых инструментов. Инвестиции в жилую недвижимость гарантируют
+                      сохранность Ваших вложений и обеспечивают прогнозируемую доходность.
+                    </div>
+                    <div class="block__col text">
+                      Инвестируя вместе с ГК Регион 74, вы участвуете в разработке самых перспективных и
+                      прибыльных проектов рынка недвижимости.
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 lg-hide"></div>
+                <div class="woo-grid__col-2 woo-grid__xll-col-3 woo-grid__lg-col-10 block__s-right">
+                  <div class="block__row">
+                    <div class="block__number">
+                      30%
+                    </div>
+                    <div class="block__text text">
+                      средняя рентабельность проектов
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      20%
+                    </div>
+                    <div class="block__text text">
+                      средняя доходность для инвестора
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      1 млрд ₽
+                    </div>
+                    <div class="block__text text">
+                      в управлении
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 xll-hide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block__bottom block__bottom--investors">
+          <div class="block__outer">
+            <div class="block__container container">
+              <div class="block__inner">
+                <h3 class="block__subtitle subtitle">
+                  Инвестиции в недвижимость
+                </h3>
+                <ul class="block__list">
+                  <li class="block__item">
+                    <div class="block__ihover">
+                      <a href="/invest.html#fix" class="block__link">
+                        <span>
+                          Фиксированная <br> доходность
+                        </span>
+                      </a>
+                      <div class="block__ihover-list">
+                        <div class="block__hover text">
+                          ГК Регион 74 предлагает инвесторам долговые инструменты с фиксированной ставкой
+                          доходности
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="block__item">
+                    <div class="block__ihover">
+                      <a href="/invest.html#direct" class="block__link">
+                        <span>
+                          Прямые <br> инвестиции
+                        </span>
+                      </a>
+                      <div class="block__ihover-list">
+                        <div class="block__hover text">
+                          Мы предлагаем инструменты совместного финансирования, которые позволяют зарабатывать,
+                          инвестируя в различные этапы строительства
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section block">
+        <div class="block__container container">
+          <div class="block__body">
+            <div class="block__name block__name--dev">отдел продаж застройщика</div>
+            <div class="woo-grid__container">
+              <div class="woo-grid__row">
+                <div class="woo-grid__col-6 woo-grid__lg-col-10">
+                  <h2 class="block__title title block__title--dev">
+                    На основании опыта реализации более 93 000 кв.м. жилой площади, нами была разработана собственная эффективная технология реализации проектов любой сложности, позволяющая гарантировать темпы и объемы продаж застройщику.
+                  </h2>
+                  <div class="block__columns block__columns--dev">
+                    <div class="block__col text">
+                      Эффективный маркетинг и экономичные модели продвижения проекта
+                    </div>
+                    <div class="block__col text">
+                      Собственная технология SMART-продаж, гарантирующая реализацию проекта в утвержденные сроки
+                    </div>
+                    <div class="block__col text">
+                      Разработанные клиентские сервисы обеспечивающие необходимую конверсию
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 lg-hide"></div>
+                <div class="woo-grid__col-2 woo-grid__xll-col-3 woo-grid__lg-col-10 block__s-right">
+                  <div class="block__row">
+                    <div class="block__number">
+                      4
+                    </div>
+                    <div class="block__text text">
+                      строительные <br> компании
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      47 500 м<sup>2</sup>
+                    </div>
+                    <div class="block__text text">
+                      продано от застройщика
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      5
+                    </div>
+                    <div class="block__text text">
+                      реализованных домов
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 xll-hide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section block block--current" id="current">
+        <div class="block__container container">
+          <div class="block__body">
+            <div class="block__name block__name--current">ТЕКУЩИЙ ПРОЕКТ</div>
+            <a href="#" class="block__project">
+              <div class="block__ref"> <span>Подробнее о ЖК</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M2.99954 2.75919L3.00465 3.6393C3.00586 3.8476 3.17571 4.01746 3.38404 4.01869L10.2799 4.0587L2.73524 11.6033C2.5888 11.7498 2.59019 11.9886 2.73834 12.1368L3.36428 12.7627C3.51243 12.9109 3.75127 12.9123 3.8977 12.7658L11.4423 5.22117L11.4824 12.117C11.4836 12.3253 11.6534 12.4952 11.8618 12.4964L12.7419 12.5015C12.9502 12.5027 13.1181 12.3349 13.1169 12.1265L13.0628 2.81762C13.0616 2.60931 12.8918 2.43946 12.6835 2.43823L3.37452 2.38421C3.1662 2.38297 2.99831 2.55087 2.99954 2.75919Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+            </a>
+            <div class="block__mobile-ref">
+              <a href="#">Подробнее о ЖК</a>
+            </div>
+            <div class="woo-grid__container">
+              <div class="woo-grid__row">
+                <div class="woo-grid__col-6 woo-grid__lg-col-10">
+                  <h2 class="block__title title block__title--dev">
+                    ЖК «Семейный» объединяет в себе лучшие решения застройщика, включая удачное расположение,
+                    закрытую территорию и ассортимент планировок для будущих жителей.
+                  </h2>
+                  <div class="block__columns block__columns--dev">
+                    <div class="block__col text">
+                      Удачное расположение, несмотря на вторую или третью строки
+                    </div>
+                    <div class="block__col text">
+                      Закрытая территория от второй строки
+                    </div>
+                    <div class="block__col text">
+                      Ассортимент планировок для будущих жителей третьей строки
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 lg-hide"></div>
+                <div class="woo-grid__col-2 woo-grid__xll-col-3 woo-grid__lg-col-10 block__s-right">
+                  <div class="block__row">
+                    <div class="block__number">
+                      3
+                    </div>
+                    <div class="block__text text">
+                      дома в жилом <br> комплексе
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      25 000 м<sup>2</sup>
+                    </div>
+                    <div class="block__text text">
+                      общая площадь
+                    </div>
+                  </div>
+                  <div class="block__row">
+                    <div class="block__number">
+                      19
+                    </div>
+                    <div class="block__text text">
+                      видов планировок
+                    </div>
+                  </div>
+                </div>
+                <div class="woo-grid__col-1 xll-hide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section block block--about" id="about">
+        <div class="block__container container">
+          <div class="block__body">
+            <div class="block__name block__name--about">О компании</div>
+            <div class="block__wrap">
+
+              <div class="woo-grid__container">
+                <div class="woo-grid__row">
+                  <div class="woo-grid__col-3 woo-grid__xxl-col-3 woo-grid__lg-col-10 block__imgbox">
+                    <div class="block__image">
+                      <img src="img/about.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="woo-grid__col-4  woo-grid__xxl-col-4 woo-grid__lg-col-10">
+                    <div class="block__about-box">
+                      <div class="block__subtitle block__subtitle--about subtitle">
+                        «Мы разрабатываем и воплощаем в жизнь качественные инвестиционные проекты по строительству современного, красивого и комфортного жилья»
+                        <span>— миссия компании</span>
+                      </div>
+                      <div class="woo-grid__col-3 woo-grid__col-3-lg-visible">
+                        <div class="block__columns block__columns--about">
+                          <div class="block__col block__col--about text">
+                            Обладая более высокой доходностью, чем традиционные банковские продукты, он не несет в себе рисков сложных финансовых инструментов. Инвестиции в жилую недвижимость гарантируют сохранность Ваших вложений и обеспечивают прогнозируемую доходность.
+                          </div>
+                          <div class="block__col block__col--about text">
+                            <a href="/certificates.html">
+                              <span>Награды и сертификаты</span>
+                              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                  <path d="M2.99954 2.75919L3.00465 3.6393C3.00586 3.8476 3.17571 4.01746 3.38404 4.01869L10.2799 4.0587L2.73524 11.6033C2.5888 11.7498 2.59019 11.9886 2.73834 12.1368L3.36428 12.7627C3.51243 12.9109 3.75127 12.9123 3.8977 12.7658L11.4423 5.22117L11.4824 12.117C11.4836 12.3253 11.6534 12.4952 11.8618 12.4964L12.7419 12.5015C12.9502 12.5027 13.1181 12.3349 13.1169 12.1265L13.0628 2.81762C13.0616 2.60931 12.8918 2.43946 12.6835 2.43823L3.37452 2.38421C3.1662 2.38297 2.99831 2.55087 2.99954 2.75919Z"></path>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0">
+                                    <rect width="16" height="16" fill="white"></rect>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="block__about-s-bot">
+                        <div class="block__about-s-offset">
+
+                          <div class="block__stats block__stats--about block__about-s-stats">
+                            <div class="block__about-s-row">
+                              <div class="block__number">
+                                93 000 м<sup>2</sup>
+                              </div>
+                              <div class="block__text text">
+                                площадь реализованной недвижимости
+                              </div>
+                            </div>
+                            <div class="block__about-s-row">
+                              <div class="block__number">
+                                18
+                              </div>
+                              <div class="block__text text">
+                                объектов введено в эксплуатацию
+                              </div>
+                            </div>
+                            <div class="block__about-s-row">
+                              <div class="block__number">
+                                15
+                              </div>
+                              <div class="block__text text">
+                                проектов реализованных
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="woo-grid__col-3 woo-grid__col-3-lg-hidden">
+                    <div class="block__columns block__columns--about">
+                      <div class="block__col block__col--about text">
+                        Обладая более высокой доходностью, чем традиционные банковские продукты, он не несет в себе рисков сложных финансовых инструментов. Инвестиции в жилую недвижимость гарантируют сохранность Ваших вложений и обеспечивают прогнозируемую доходность.
+                      </div>
+                      <div class="block__col block__col--about text">
+                        <a href="/certificates.html">
+                          <span>Награды и сертификаты</span>
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                              <path d="M2.99954 2.75919L3.00465 3.6393C3.00586 3.8476 3.17571 4.01746 3.38404 4.01869L10.2799 4.0587L2.73524 11.6033C2.5888 11.7498 2.59019 11.9886 2.73834 12.1368L3.36428 12.7627C3.51243 12.9109 3.75127 12.9123 3.8977 12.7658L11.4423 5.22117L11.4824 12.117C11.4836 12.3253 11.6534 12.4952 11.8618 12.4964L12.7419 12.5015C12.9502 12.5027 13.1181 12.3349 13.1169 12.1265L13.0628 2.81762C13.0616 2.60931 12.8918 2.43946 12.6835 2.43823L3.37452 2.38421C3.1662 2.38297 2.99831 2.55087 2.99954 2.75919Z"></path>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0">
+                                <rect width="16" height="16" fill="white"></rect>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section block">
+        <div class="block__container container">
+          <div class="block__body">
+            <div class="block__name block__name--news">
+              <span>Новости</span>
+              <a href="#" class="block__ref"><span>Все новости</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M2.99954 2.75919L3.00465 3.6393C3.00586 3.8476 3.17571 4.01746 3.38404 4.01869L10.2799 4.0587L2.73524 11.6033C2.5888 11.7498 2.59019 11.9886 2.73834 12.1368L3.36428 12.7627C3.51243 12.9109 3.75127 12.9123 3.8977 12.7658L11.4423 5.22117L11.4824 12.117C11.4836 12.3253 11.6534 12.4952 11.8618 12.4964L12.7419 12.5015C12.9502 12.5027 13.1181 12.3349 13.1169 12.1265L13.0628 2.81762C13.0616 2.60931 12.8918 2.43946 12.6835 2.43823L3.37452 2.38421C3.1662 2.38297 2.99831 2.55087 2.99954 2.75919Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+            <div class="block__date">5 августа 2021</div>
+            <a href="javascript:void(false);" class="block__heading">
+              Парковый премиум. Уникальный жилой комплекс на северо-западе Челябинска.
+            </a>
+            <ul class="block__list block__list--news">
+              <li class="block__item">
+                <a href="settling-semeinyi.html" class="block__link">
+                  Заселение ЖК Семейный. Жильцы получают ключи и въезжают в новые квартиры.
+                </a>
+                <span>29 июля 2021</span>
+              </li>
+              <li class="block__item">
+                <a href="javascript:void(false);" class="block__link">
+                  Повышение ставки по ипотечным кредитам. Какие процентные ставки ждут нас в 2021 году?
+                </a>
+                <span>14 июля 2021</span>
+              </li>
+              <li class="block__item">
+                <a href="partner-sber.html" class="block__link">
+                  ГК "Регион 74" получение статуса "Золотого партнёра" Сбербанка России и была награждена дипломом за успешное сотрудничество.
+                </a>
+                <span>25 июня 2021</span>
+              </li>
+              <li class="block__item">
+                <a href="javascript:void(false);" class="block__link">
+                  Перспективы рынка недвижимости. Что ждет рынок недвижимости 2021 году в Челябинской области?
+                </a>
+                <span>12 июня 2021</span>
+              </li>
+              <li class="block__item">
+                <a href="jk-semeinyi.html" class="block__link">
+                  В микрорайоне Чурилово успешно завершено строительство ЖК "Семейный" - нового жилого комплекса, состоящего из трёх десятиэтажных домов общей площадью 25 000 квадратных метров
+                </a>
+                <span>18 Мая 2021</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="menu-modal js-menu-modal">
+      <div class="menu-modal__scroll-box">
+
+      </div>
+    </div>
+
+    <section class="section footer" id="footer">
+      <div class="footer__container container">
+        <div class="footer__body">
+          <div class="footer__top">
+            <div class="footer__col">
+              <div class="footer__caption">Звоните</div>
+              <a href="tel:+73512475555" class="footer__contact">+7 351 247 55 55</a>
+            </div>
+            <div class="footer__col">
+              <div class="footer__caption">Пишите</div>
+              <a href="mailto:office@region-74.ru" class="footer__contact">office@region-74.ru</a>
+            </div>
+            <div class="footer__col">
+              <div class="footer__caption">Приходите</div>
+              <div class="footer__contact">
+                Челябинск, ул. Труда, 84 БД «Петровский», 3 этаж
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <span>© ГК «Регион», 2006—2021</span>
+            <a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="popup" id="popup" style="display: none;">
+      <div class="popup__overlay" id="overlay" style="display: none;"></div>
+      <div class="popup__container">
+        <div class="popup__header" id="popupHeader">
+          <div class="popup__close" id="popup-close">
+            <div class="popup__close-wrap">
+              <div class="popup__close-line-1"></div>
+              <div class="popup__close-line-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="popup__box" id="popupBox">
+          <div class="js-popup-content popup__content"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/bundle.js?v=397"></script>
+</body>
+
+</html>
